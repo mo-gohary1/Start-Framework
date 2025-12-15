@@ -1,0 +1,183 @@
+
+:root {
+    --main-color: #1abc9c;
+    --second-color: #2c3e50;
+   
+}
+body {
+  padding-top: 70px; /* ارتفاع الـ navbar */
+}
+.about {
+  background-color: #1abc9c;
+}
+
+.line {
+  width: 80px;
+  height: 4px;
+}
+.footer {
+  background-color: #2c3e50;
+}
+
+.footer-bottom {
+  background-color: #1a252f;
+}
+
+.icon {
+  border: 1px solid white;
+  border-radius: 50%;
+  padding: 10px;
+  width: 45px;
+  height: 45px;
+  line-height: 24px;
+  text-align: center;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.home {
+  background-color: #1abc9c;
+}
+
+.line {
+  width: 80px;
+  height: 4px;
+}
+
+.icon:hover {
+  background-color: #1abc9c;
+  border-color: #1abc9c;
+}
+
+:host, :root {
+    --fa-style-family-classic: "Font Awesome 6 Free";
+    --fa-font-solid: normal 900 1em / 1 "Font Awesome 6 Free";
+}
+:host, :root {
+    --fa-font-regular: normal 400 1em / 1 "Font Awesome 6 Free";
+}
+:host, :root {
+    --fa-style-family-brands: "Font Awesome 6 Brands";
+    --fa-font-brands: normal 400 1em / 1 "Font Awesome 6 Brands";
+}
+:root {
+    --bs-breakpoint-xs: 0;
+    --bs-breakpoint-sm: 576px;
+    --bs-breakpoint-md: 768px;
+    --bs-breakpoint-lg: 992px;
+    --bs-breakpoint-xl: 1200px;
+    --bs-breakpoint-xxl: 1400px;
+}
+@media (prefers-reduced-motion: no-preference) {
+    :root {
+        scroll-behavior: smooth;
+    }
+}
+
+nav[_ngcontent-osm-c20] {
+    background-color: var(--second-color);
+    transition: .6s padding;
+}
+
+.footer[_ngcontent-mkb-c21] {
+    background-color: #2c3e50;
+    color: #fff;
+    justify-content: center;
+    text-align: center;
+    padding: 40px;
+    margin: 0;
+}
+.card-group[_ngcontent-mkb-c21] {
+    background-color: transparent !important;
+}
+.p[_ngcontent-mkb-c21] {
+    background-color: #1a252f;
+    padding: 10px;
+}
+.p[_ngcontent-mkb-c21] p[_ngcontent-mkb-c21] {
+    text-align: center;
+    color: #f0f8ff;
+    padding-top: 10px;
+}
+.card-body {
+    flex: 1 1 auto;
+    padding: var(--bs-card-spacer-y) var(--bs-card-spacer-x);
+    color:  #1a252f;}
+
+
+    .card[_ngcontent-mkb-c21] {
+        --bs-card-border-color: none;
+        --bs-card-bg: transparent;
+        color: #fff;
+    }
+
+    
+    .home[_ngcontent-mkb-c17] {
+        background-color: #1abc9c;;
+    }
+    img[_ngcontent-mkb-c17] {
+        width: 250px;
+    }
+
+    .line[_ngcontent-mkb-c6] {
+        height: 4px;
+        width: 80px;
+    }
+
+    .fa-star:before {
+        content: "\f005";
+    }
+
+    .h100{
+
+        height: 100vh;
+    }
+
+    .about[_ngcontent-osm-c7] {
+        background-color: var(--main-color);
+        height: 98vh;
+    }
+    .pt4{
+        padding-top: 8%;
+    }
+
+    
+
+.__top[_ngcontent-osm-c16] {
+    top: 40px !important;
+}
+label[_ngcontent-osm-c16] {
+    color: var(--main-color);
+    margin-bottom: 7px;
+    transition: .6s top;
+}
+
+.layer__[_ngcontent-osm-c19]:hover {
+    opacity: 1;
+}
+
+.layer__[_ngcontent-osm-c19] {
+    background-color: #1abc9ce6;
+    opacity: 0;
+    cursor: pointer;
+    transition: .6s opacity;
+}
+
+.line[_ngcontent-osm-c6] {
+    height: 4px;
+    width: 80px;
+}
+
+.icon[_ngcontent-osm-c21] {
+    border: 1px white solid;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    padding: 10px;
+}
+
+.fa-brands, .fab {
+    font-weight: 400;
+}
