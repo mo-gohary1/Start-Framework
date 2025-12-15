@@ -8,7 +8,7 @@ export default function Home() {
     >
       <div className="text-center">
         <img
-          src="/src/assets/images/avataaars.svg"
+          src="../assets/images/avataaars."
           alt="avatar"
           className="mb-3"
           width={250}
