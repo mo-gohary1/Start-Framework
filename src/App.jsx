@@ -3,7 +3,8 @@ import Contact from './Components/Contact'
 import Home from './Components/Home'
 import About from './Components/About'
 import Navbar from './Components/Navbar'
-import Footer from './Components/Footer'
+import Footer from './Components/ب
+  نثتصننثصنمىنىسصنمبنمبنتمحمكروزكة,آةرمooter'
 import Portfolio from './Components/Portfolio'
 import React from 'react'
 import '@fortawesome/fontawesome-free/css/all.min.css';
